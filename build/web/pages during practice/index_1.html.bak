@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>IWS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrat.min.css">
+        
+        
+
+
+        <style>
+    @font-face{
+        font-family: Krutidev;
+        src: url(font/k85.ttf);
+    }
+    #tagline{
+        background-color: brown;
+        color: white;
+        font-family: Krutidev;
+    }
+    #iwsname{
+        color: brown;
+        border: red;
+        font-family: Monotype Corsiva;
+        
+    }
+    .header{
+        background: pink;
+        background-color: pink;
+    }
+    #down{
+        background: brown;
+        color: white;
+        
+    }
+    </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row" id="siteheader">
+                <div class="col-md-12 col-sm-12 col-xs-12" id="tagline">
+                    <center> <h1>AA lsok ijeksa ?kekZ AA</h1></center>
+                </div>
+            </div>
+            <div class="row">
+                <header class="header">
+                <div class="col-md-2 col-lg-2 col-xs-2">
+                    <img class="img-responsive" src="images/logo.png" alt="logo">
+                </div>
+                     <div class="col-md-7 col-lg-7 col-xs-7">
+                       
+                         <center> <h1 id="iwsname">Ishanvi Welfare Society</h1></center>
+                    
+                </div>
+                    <div class="col-md-3 col-lg-3 col-xs-3">
+                     <div id="lg">
+             <a href="Login.html" style="float: right">Admin</a><br/>
+         </div>
+         <div id="contact">
+             <span style="float: right">Call Us. +91-900-556-8427</span><br/>
+             <span style="float: right">E-mail: ishanviwelfaresociety@gmail.com</span>             
+         </div>
+                </div>
+                
+                </header>    
+            </div>
+            <!-- header area ends-->
+          
+        
+     
+            
+            <div class="row" id="down">
+                
+              <div class="col-md-4">
+                        <h3>© All right reserved</h3>
+                    </div>
+                <div class="col-md-4">
+                        <h3>Ishanvi Welfare Society</h3>
+                    </div>
+                <div class="col-md-4">
+                    <h3>designed by Chandan</h3>
+                    </div>
+              
+            </div>
+        
+        </div>
+        
+            <script src="js/jquery-3.2.1.js"></script>
+            <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
